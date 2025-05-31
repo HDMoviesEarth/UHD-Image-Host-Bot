@@ -3,20 +3,20 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyrogram client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
+    API_ID    = os.environ.get("API_ID", "23889992")
+    API_HASH  = os.environ.get("API_HASH", "70bf3c9baebf30afff8c32649bf23c3d")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config get this from mongodb
-    DB_NAME = os.environ.get("DB_NAME","Rkn-Developer")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","HDMoviesEarth")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://HDMoviesEarth:unqOY8gUrmDLNXHd@cluster0.0xjypxj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC = os.environ.get("START_PIC", "https://graph.org/file/f6c15009bce07058f1edb.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6151758586').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "RknDeveloper")
-    LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1001944995812'))
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1900118264').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "UHD NETWORK")
+    LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1002645203047'))
 
     # download file
     DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
