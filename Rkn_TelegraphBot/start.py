@@ -57,7 +57,7 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/RknDeveloper/Telegraph-Bot")
+                InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://t.me/ANKAN_Contact_BOT")
             ],[
                 InlineKeyboardButton("Bᴀᴄᴋ", callback_data = "start")
             ]])            
