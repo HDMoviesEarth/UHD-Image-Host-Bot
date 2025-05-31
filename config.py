@@ -13,9 +13,9 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC = os.environ.get("START_PIC", "https://graph.org/file/f6c15009bce07058f1edb.jpg")
+    START_PIC = os.environ.get("START_PIC", "https://envs.sh/NXt.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1900118264').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "UHD NETWORK")
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "UHD_NETWORK")
     LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1002645203047'))
 
     # download file
@@ -34,12 +34,12 @@ I ᴀᴍ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴘʜ ʙᴏᴛ. sᴇɴᴅ ᴍᴇ ɪᴍ
 
     ABOUT_TXT = """<b>➤ Mʏ Nᴀᴍᴇ: {}
 ➤ Cʀᴇᴀᴛᴏʀ : <a href='tg://settings'>Tʜɪs Pᴇʀsᴏɴ</a>
-➤ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/RknDeveloper'>Rᴋɴ Dᴇᴠᴇʟᴏᴘᴇʀ</a>
+➤ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/ANKAN_Contact_BOT'>𝙰𝙽𝙺𝙰𝙽</a>
 ➤ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org'>Pʏʀᴏɢʀᴀᴍ</a>
 ➤ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org'>Pʏᴛʜᴏɴ 3</a>
 ➤ Dᴀᴛᴀ Bᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ Dʙ</a>
-➤ Bᴏᴛ Sᴇʀᴠᴇʀ : ʀᴇɴᴅᴇʀ
-➤ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ1.0.1</b> """
+➤ Bᴏᴛ Sᴇʀᴠᴇʀ : 𝙷𝚎𝚛𝚞𝚔𝚘
+➤ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ4.0.1</b> """
     
     
     HELP_TXT = """
